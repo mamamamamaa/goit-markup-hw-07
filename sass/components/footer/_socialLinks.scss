@@ -1,0 +1,28 @@
+.social-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    text-transform: uppercase;
+    color: var(--contrast-color);
+}
+
+.footer-container {
+    display: flex;
+}
+
+.social-link-container {
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+    fill: var(--contrast-color);
+}
+
+.icon-item:not(:last-child) {
+    margin-right: 10px;
+}

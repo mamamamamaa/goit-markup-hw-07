@@ -13,36 +13,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
     <title>Web Studio</title>
   </head>
   <body>
     <header class="header">
-      <div class="container header-box">
-        <a href="./index.html" class="logo"><span class="logo-item">Web</span>Studio</a>
+      <div class="container header__container">
+        <a href="./index.html" class="header__logo"><span class="header__logo-item">Web</span>Studio</a>
         <nav>
-          <ul class="header-list">
-            <li class="header-list-item">
-              <a href="./index.html" class="header-list-link link-1">Студия</a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="./index.html" class="header__link header__link--visible">Студия</a>
             </li>
-            <li class="header-list-item">
-              <a href="./portfolio.html" class="header-list-link">Портфолио</a>
+            <li class="header__item">
+              <a href="./portfolio.html" class="header__link">Портфолио</a>
             </li>
-            <li class="header-list-item"><a href="" class="header-list-link">Контакты</a></li>
+            <li class="header__item"><a href="" class="header__link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="address-list">
-            <li class="address-list-item ">
-              <a href="mailto:info@devstudio.com" class="address-list-link">
-                <svg class="header-icons" width="16" heigth="12">
+        <ul class="header__address-list">
+            <li class="header__address-item">
+              <a href="mailto:info@devstudio.com" class="header__address-link header__address-link--hover-color">
+                <svg class="header__icons header__icons--hover-color" width="16" heigth="12">
                   <use href="./images/symbol-defs.svg#icon-envelope" ></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="address-list-item ">
-              <a href="tel:+380961111111" class="address-list-link">
-                <svg class="header-icons" width="16" heigth="12">
+            <li class="header__address-item">
+              <a href="tel:+380961111111" class="header__address-link header__address-link--hover-color">
+                <svg class="header__icons header__icons--hover-color" width="16" heigth="12">
                   <use href="./images/symbol-defs.svg#icon-Vector" ></use>
                 </svg>
                 +38 096 111 11 11
@@ -55,56 +55,56 @@
     <main>
         <section class="hero">
           <div class="container">
-            <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
+            <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="hero__btn hero__btn--hover-color" data-modal-open>Заказать услугу</button>
           </div>
         </section>
 
-        <section class="section qualities-section">
+        <section class="section section__qualities--padding">
           <div class="container">
             <h2 class="entry-title">Наши преимущества</h2>
-            <ul class="qualities-list">
-              <li class="qualities-list-item">
-                <div class="icons-container">
-                  <svg class="qualities-icons" width="70" heigth="70">
+            <ul class="qualities__list">
+              <li class="qualities__item">
+                <div class="icons-box">
+                  <svg width="70" heigth="70">
                     <use href="./images/symbol-defs.svg#icon-antenna"></use>
                   </svg>
                 </div>
-                <h3 class="qualities-list-header">Внимание к деталям</h3>
-                <p class="qualities-list-paragraph">
+                <h3 class="qualities__header">Внимание к деталям</h3>
+                <p class="qualities__paragraph">
                   Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
               </li>
-              <li class="qualities-list-item">
-                <div class="icons-container">
-                  <svg class="qualities-icons" width="70" heigth="70">
+              <li class="qualities__item">
+                <div class="icons-box">
+                  <svg width="70" heigth="70">
                     <use href="./images/symbol-defs.svg#icon-clock"></use>
                   </svg>
                 </div>
-                <h3 class="qualities-list-header">Пунктуальность</h3>
-                <p class="qualities-list-paragraph">
+                <h3 class="qualities__header">Пунктуальность</h3>
+                <p class="qualities__paragraph">
                   Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                 </p>
               </li>
-              <li class="qualities-list-item">
-                <div class="icons-container">
-                  <svg class="qualities-icons" width="70" heigth="70">
+              <li class="qualities__item">
+                <div class="icons-box">
+                  <svg width="70" heigth="70">
                     <use href="./images/symbol-defs.svg#icon-diagram"></use>
                   </svg>
                 </div>
-                <h3 class="qualities-list-header">Планирование</h3>
-                <p class="qualities-list-paragraph">
+                <h3 class="qualities__header">Планирование</h3>
+                <p class="qualities__paragraph">
                   Равным образом консультация с широким активом в значительной степени обуславливает.
                 </p>
               </li>
-              <li class="qualities-list-item">
-                <div class="icons-container">
-                  <svg class="qualities-icons" width="70" heigth="70">
+              <li class="qualities__item">
+                <div class="icons-box">
+                  <svg width="70" heigth="70">
                     <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                   </svg>
                 </div>
-                <h3 class="qualities-list-header">Современные технологии</h3>
-                <p class="qualities-list-paragraph">
+                <h3 class="qualities__header">Современные технологии</h3>
+                <p class="qualities__paragraph">
                   Значимость этих проблем настолько очевидна, что
                   реализация плановых заданий.
                 </p>
@@ -293,42 +293,42 @@
         <div class="container">
           <h2 class="about-header">Постоянные клиенты</h2>
           <ul class="reg-cust-list">
-            <li class="list-item">
+            <li class="reg-cust__item">
               <a href="" class="customer-link">
                 <svg class="company-icon" width="106" heigth="60">
                   <use href="./images/symbol-defs.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
+            <li class="reg-cust__item">
               <a href="" class="customer-link">
                 <svg class="company-icon" width="106" heigth="60">
                   <use href="./images/symbol-defs.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
+            <li class="reg-cust__item">
               <a href="" class="customer-link">
                 <svg class="company-icon" width="106" heigth="60">
                   <use href="./images/symbol-defs.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
+            <li class="reg-cust__item">
               <a href="" class="customer-link">
                 <svg class="company-icon" width="106" heigth="60">
                   <use href="./images/symbol-defs.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
+            <li class="reg-cust__item">
               <a href="" class="customer-link">
                 <svg class="company-icon" width="106" heigth="60">
                   <use href="./images/symbol-defs.svg#icon-Logo-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-item">
+            <li class="reg-cust__item">
               <a href="" class="customer-link">
                 <svg class="company-icon" width="106" heigth="60">
                   <use href="./images/symbol-defs.svg#icon-Logo-5"></use>

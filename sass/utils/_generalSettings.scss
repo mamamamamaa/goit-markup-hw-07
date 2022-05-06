@@ -1,0 +1,62 @@
+.pic {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: var(--size-of-gap);
+    padding-bottom: var(--size-of-gap);
+    /* outline: 1px solid tomato; */
+}
+
+.header__item,
+.qualities__item,
+.about-list-item,
+.team-list-item,
+.header__address-item,
+.filter-list-item,
+.product-list-item {
+    list-style-type: none;
+}
+
+.entry-title {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.submit-button {
+    height: 50px;
+    width: 200px;
+
+    color: #fff;
+
+    background-color: var(--accent-color);
+
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        outline: none;
+        background-color: var(--btn-hover);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+}
+
