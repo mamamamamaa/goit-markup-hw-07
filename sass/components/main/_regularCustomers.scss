@@ -1,17 +1,13 @@
-.reg-cust-list {
-    display: flex;
+.reg-cust__list {
+    @include flexPosition();
     list-style: none;
-    justify-content: center;
-    align-items: center;
 }
 .reg-cust__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.customer-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.reg-cust__link {
+    @include flexPosition();
 
     width: 170px;
     height: 92px;
@@ -19,10 +15,10 @@
     border-radius: 4px;
     fill: #AFB1B8;
 
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transtion;
 
     &:hover {
-        fill: var(--accent-color);
-        border-color: var(--accent-color);
+        fill: $accent-color;
+        border-color: $accent-color;
     }
 }

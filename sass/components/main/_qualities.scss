@@ -14,14 +14,11 @@
 }
 
 .qualities__list {
-    justify-content: center;
-    display: flex;
+    @include flexPosition();
 }
 
-.icons-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.qualities__icon {
+    @include flexPosition();
     background-color: #F5F4FA;
     height: 120px;
     margin-bottom: 30px;
@@ -44,6 +41,6 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--paragraph-color);
+    color: $paragraph-color;
     margin-top: 10px;
 }

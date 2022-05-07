@@ -1,18 +1,18 @@
-.social-header {
+.social__header {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
 
     text-transform: uppercase;
-    color: var(--contrast-color);
+    color: $contrast-color;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
 }
 
-.social-link-container {
+.social__container {
     margin-left: 70px;
     margin-top: 12px;
 }
@@ -20,9 +20,9 @@
 .social-icons {
     width: 20px;
     height: 20px;
-    fill: var(--contrast-color);
+    fill: $contrast-color;
 }
 
-.icon-item:not(:last-child) {
+.team__icon-item:not(:last-child) {
     margin-right: 10px;
 }

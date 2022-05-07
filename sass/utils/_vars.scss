@@ -1,11 +1,24 @@
-:root {
-    --header-color: #212121;
-    --accent-color: #2196F3;
-    --paragraph-color: #757575;
-    --contrast-color: #fff;
-    --backgroung-color: #2F303A;
-    --footer-link: rgba(255, 255, 255, 0.6);
-    --portfolio-btns: #F5F4FA;
-    --btn-hover: #188CE8;
-    --size-of-gap: 94px;
+$header-color: #212121;
+$accent-color: #2196F3;
+$paragraph-color: #757575;
+$contrast-color: #fff;
+$backgroung-color: #2F303A;
+$footer-link: rgba(255, 255, 255, 0.6);
+$portfolio-btns: #F5F4FA;
+$btn-hover: #188CE8;
+$size-of-gap: 94px;
+
+%paddings{
+    padding-top: $size-of-gap;
+    padding-bottom: $size-of-gap;
+}
+
+%transtion{
+    @extend %transtion;
+}
+
+@mixin flexPosition($type: flex, $main-axis: center, $cross-axis: center) {
+    display: $type;
+    justify-content: $main-axis;
+    align-items: $cross-axis;
 }
