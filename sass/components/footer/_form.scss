@@ -1,14 +1,26 @@
 .footer__email-container {
-    margin-top: 12px;
-    margin-left: 92px;
+    // margin-top: 12px;
+    // margin-left: 92px;
+    @media screen and (min-width:320px) {
+        text-align: center;
+    }
+    @media screen and (min-width:1200px) {
+        text-align: left;
+        margin-top: 12px;
+        margin-left: 92px;
+    }
 }
 
 .footer__imput-container {
     margin-top: 20px;
+    @media screen and (min-width:1200px) {
+        display: flex;
+    }
+
 }
 
 .footer__imput {
-    width: 358px;
+    width: 100%;
     height: 50px;
 
     color: $contrast-color;
@@ -24,6 +36,13 @@
 
     &:focus {
         border-color: $contrast-color;
+    }
+
+    @media screen and (min-width:320px) {
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width:1200px) {
+        width: 340px;
     }
 }
 

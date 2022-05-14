@@ -1,7 +1,9 @@
 // UTILS
 @import './utils/vars';
 @import './utils/rezoing';
+@import './utils/mixins';
 @import './utils/generalSettings';
+@import './utils/placeholders';
 
 // HEADER
 @import './components/header/header';

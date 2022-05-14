@@ -14,21 +14,22 @@
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
   </head>
   <body>
-    <header class="header">
+     <!-- <header class="header">
       <div class="container header__container">
         <a href="./index.html" class="header__logo"><span class="header__logo-item">Web</span>Studio</a>
         <nav>
           <ul class="header__list">
             <li class="header__item">
               <a href="./index.html" class="header__link header__link--visible">Студия</a>
-            </li>
+            </li>-->
             <li class="header__item">
               <a href="./portfolio.html" class="header__link">Портфолио</a>
             </li>
-            <li class="header__item"><a href="" class="header__link">Контакты</a></li>
+            <!--<li class="header__item"><a href="" class="header__link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="header__address-list">
@@ -50,11 +51,12 @@
             </li>
         </ul>
       </div>
-    </header>
+    </header> -->
 
     <main>
         <section class="hero">
           <div class="container">
+            
             <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero__btn hero__btn--hover-color" data-modal-open>Заказать услугу</button>
           </div>
@@ -290,59 +292,59 @@
       </section>
       <!-- секция с клиентами -->
       <section class="reg-cust section">
-        <div class="container">
-          <h2 class="main-section__header">Постоянные клиенты</h2>
-          <ul class="reg-cust__list">
-            <li class="reg-cust__item">
-              <a href="" class="reg-cust__link">
-                <svg class="reg-cust__icon" width="106" heigth="60">
-                  <use href="./images/symbol-defs.svg#icon-Logo"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="reg-cust__item">
-              <a href="" class="reg-cust__link">
-                <svg class="reg-cust__icon" width="106" heigth="60">
-                  <use href="./images/symbol-defs.svg#icon-Logo-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="reg-cust__item">
-              <a href="" class="reg-cust__link">
-                <svg class="reg-cust__icon" width="106" heigth="60">
-                  <use href="./images/symbol-defs.svg#icon-Logo-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="reg-cust__item">
-              <a href="" class="reg-cust__link">
-                <svg class="reg-cust__icon" width="106" heigth="60">
-                  <use href="./images/symbol-defs.svg#icon-Logo-3"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="reg-cust__item">
-              <a href="" class="reg-cust__link">
-                <svg class="reg-cust__icon" width="106" heigth="60">
-                  <use href="./images/symbol-defs.svg#icon-Logo-4"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="reg-cust__item">
-              <a href="" class="reg-cust__link">
-                <svg class="reg-cust__icon" width="106" heigth="60">
-                  <use href="./images/symbol-defs.svg#icon-Logo-5"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div class="container">
+        <h2 class="main-section__header">Постоянные клиенты</h2>
+        <ul class="reg-cust__list">
+          <li class="reg-cust__item">
+            <a href="" class="reg-cust__link">
+              <svg class="reg-cust__icon" width="106" heigth="60">
+                <use href="./images/symbol-defs.svg#icon-Logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="reg-cust__item">
+            <a href="" class="reg-cust__link">
+              <svg class="reg-cust__icon" width="106" heigth="60">
+                <use href="./images/symbol-defs.svg#icon-Logo-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="reg-cust__item">
+            <a href="" class="reg-cust__link">
+              <svg class="reg-cust__icon" width="106" heigth="60">
+                <use href="./images/symbol-defs.svg#icon-Logo-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="reg-cust__item">
+            <a href="" class="reg-cust__link">
+              <svg class="reg-cust__icon" width="106" heigth="60">
+                <use href="./images/symbol-defs.svg#icon-Logo-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="reg-cust__item">
+            <a href="" class="reg-cust__link">
+              <svg class="reg-cust__icon" width="106" heigth="60">
+                <use href="./images/symbol-defs.svg#icon-Logo-4"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="reg-cust__item">
+            <a href="" class="reg-cust__link">
+              <svg class="reg-cust__icon" width="106" heigth="60">
+                <use href="./images/symbol-defs.svg#icon-Logo-5"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
     </main>
 
     <footer class="footer">
       <div class="container footer__container">
-        <div>
+        <div class="main-footer-addresses">
           <a href="./index.html" class="footer__logo"><span class="footer__logo-text">Web</span>Studio</a>
           <address class="footer__address">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
